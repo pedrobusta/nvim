@@ -15,7 +15,7 @@ return {
 
         local on_attach = function(_, buf)
             -- Enable completion triggered by <c-x><c-o>
-            vim.bo[buf].omnifunc = 'v:lua.vim.lsp.omnifunc'
+            --vim.bo[buf].omnifunc = 'v:lua.vim.lsp.omnifunc'
 
             -- Buffer local mappings.
             -- See `:help vim.lsp.*` for documentation on any of the below functions
