@@ -10,7 +10,7 @@ return {
         "saadparwaiz1/cmp_luasnip",
         "windwp/nvim-autopairs",
     },
-    event = "VeryLazy",
+    --event = "VeryLazy",
     main = "config.plugins.cmpconfig",
     config = true,
 }
