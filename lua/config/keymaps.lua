@@ -1,12 +1,13 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
 
--- Buffers keymaps
-vim.keymap.set("n", "<leader>bn", vim.cmd.bnext)
-vim.keymap.set("n", "<leader>bp", vim.cmd.bprevious)
-vim.keymap.set("n", "<leader>bd", vim.cmd.bd)
+-- BUFFERS 
+vim.keymap.set("n", "<S-l>", vim.cmd.bnext)
+vim.keymap.set("n", "<S-h>", vim.cmd.bprevious)
 vim.keymap.set("n", "<leader>bd", vim.cmd.bd)
 
+
+-- WINDOWS
 -- Create window splits
 vim.keymap.set("n", "<leader>vs", vim.cmd.vsplit)
 
@@ -22,6 +23,8 @@ vim.keymap.set("n", "<C-Down>", ":resize +2<CR>")
 vim.keymap.set("n", "<C-Left>", ":vertical resize -2<CR>")
 vim.keymap.set("n", "<C-Right>", ":vertical resize +2<CR>")
 
+
+-- TEXTO
 
 
 
