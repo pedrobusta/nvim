@@ -28,3 +28,4 @@ vim.keymap.set("n", "<C-Right>", ":vertical resize +2<CR>")
 
 
 
+
